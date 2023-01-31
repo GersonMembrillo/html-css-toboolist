@@ -18,15 +18,15 @@ height: 120px;
 }
 header img{
 width: 80px;
-margin-top: 20px;
-margin-left: 20px;
 }
 h1{
   font-family: Arial, Helvetica, sans-serif;
-position: relative;
-}
-img h1{
   display: inline-block;
+  vertical-align: middle;
+}
+header img h1{
+  display: inline-block; vertical-align: middle;
+
 }
 main{
   background-color: white;
