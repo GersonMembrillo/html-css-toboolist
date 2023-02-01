@@ -1,58 +1,84 @@
-/*
-sfondo header  & main white
-sfondo background #F6F8F9
-border button Add Section grey
-Editorial & Button Add Task  #47ADF1
-Q1 Goals #9C72E4
-Recruiting #63BFA8
-Mobile #F19D32
-Website #D863A1
-Salea #B0C926
-*/
+/* general */
+:root{
+  --blue: #47ADF1;
+  --violet: #9C72E4;
+  --green: #63BFA8;
+  --orange: #F19D32;
+  --pink: #D863A1;
+  --lime: #B0C926;
+  --cross: #ee827d;
+  --grey: #F6F8F9;
+  --white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background-color: #F6F8F9;
-}
-header{
-background-color: white;
-height: 120px;
-}
-header img{
-width: 80px;
-}
-h1{
+  background-color: var(--grey);
   font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
+}
+
+/* header */
+header{
+  /* distanza contenuto e contenitore */
+  padding: 5px 20px;
+  /* distanza contenitori */
+  margin-bottom: 30px;
+}
+
+.bg-white{
+  background-color: var(--white);
+}
+
+#logo h1{
+display: inline-block;
+vertical-align: middle;
+}
+
+#logo img{
   vertical-align: middle;
 }
-header img h1{
-  display: inline-block; vertical-align: middle;
 
-}
-main{
-  background-color: white;
+/* main */
+.container {
   width: 70%;
-  margin: 20px auto;
-  border-radius: 5px;
+  margin: 0px auto;
+  border-radius: 10px;
 }
-/* pulsanti */
-button{
-  padding: 0.5%;
-  border-radius: 5px;
-  border: 0,1%;
-  margin-top: 10px;
-}
-.a{
-  background-color: #47ADF1;
-  color: white;
-  margin-left: 30px;
-}
-/* Elenchi */
-li{
-  font-family: Arial, Helvetica, sans-serif;
-}
-hr{
 
+ul{
+  list-style: none;
 }
+.top-bar {
+  padding: 10px 40px;
+  border-bottom: 2px solid var(--grey);
+}
+
+/* pulsanti */
+.button{
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+}
+
+.button-section{
+border: 2px solid lightgray;
+color: lightgray;
+background-color:var(--white);
+}
+
+.button-task{
+  border: 2px solid var(--blue);
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+/* Elenchi */
+
 
 span{
   color: white;
@@ -79,6 +105,6 @@ span{
 .Sales {
   background-color: #B0C926;
 }
-.Space{
+li {
   padding-bottom: 20px;
 }
