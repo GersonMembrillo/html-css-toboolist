@@ -79,7 +79,7 @@ background-color:var(--white);
 
 /* Elenchi */
 .tasks{
-  padding: 30px 40px;
+  padding: 0 40px;
 }
 
 .tasks ul{
