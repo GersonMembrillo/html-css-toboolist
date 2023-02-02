@@ -78,33 +78,65 @@ background-color:var(--white);
 }
 
 /* Elenchi */
-
-
-span{
-  color: white;
-  font-size: 8px;
-  border-radius: 5px;
-  padding: 0.5%;
-  background-color: black;
+.tasks{
+  padding: 30px 40px;
 }
+
+.tasks ul{
+  padding: 30px 0 0;
+}
+
+.tasks ul h3{
+  display: inline-block;
+}
+
+li{
+  padding-bottom: 30px;
+}
+
+.circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+.check{
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.cross{
+  border: 1px solid var(--cross);
+  color: var(--cross);
+}
+
+.badge{
+  display: inline-block;
+  color: var(--white);
+  font-size: 8px;
+  border-radius: 12px;
+  padding: 6px 12px;
+}
+
 .Editorial{
-  background-color: #47ADF1;
+  background-color: var(--blue);
 }
 .Q1 {
-  background-color: #9C72E4;
+  background-color: var(--violet);
 }
 .Recruiting {
-  background-color: #63BFA8;
+  background-color: var(--green);
 }
 .Mobile {
-  background-color: #F19D32;
+  background-color: var(--orange);
 }
 .Website {
-  background-color: #D863A1;
+  background-color: var(--pink);
 }
 .Sales {
-  background-color: #B0C926;
+  background-color: var(--lime);
 }
-li {
-  padding-bottom: 20px;
-}
+
